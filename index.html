@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe &ndash; YouStalk Profile </title>
+
+    <script src="all.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="app.js" defer></script>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav__overlay">
+            <div class="nav__items">
+                <div class="nav__left">
+                    <img src="./you1.jpg" alt="joe" class="nav__img">
+                </div>
+                <ul class="nav__right">
+                    <li class="nav__item"><a href="#" class="nav__link" data-name='HOME'><span>HOME</span></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-name='GALLERY'><span>GALLERY</span></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-name='CONTACT'><span>CONTACT</span></a></li>
+                    <li class="nav__item"><a href="#" class="nav__link" data-name='HIRE ME'><span>HIRE ME</span></a></li>
+                </ul>
+
+                <button class="nav__close"><i class="fas fa-times fa-2x"></i></button>
+            </div>
+        </nav>
+        <nav class="nav">
+            <div class="container">
+                <h2 class="nav__logo">YouStalk</h2>
+    
+                <button class="nav__menu"><i class="fas fa-align-center fa-2x"></i></button>
+            </div>
+        </nav>
+    <div class="container">
+        
+                <div class="header__content">
+                    <h1 class="header__text u-mb-3">Hi! I'm Joe Goldberg.
+                        <span class="header__sub">I stalk people.</span>
+                    </h1>
+            
+                    <button class="btn">Start Stalking &RightArrow;</button>
+                </div>
+    </div>
+    </header>
+
+    <section class="gallery">
+        <div class="item span2">
+            <div class="item__text item__text--1">
+                <h2 class="item__title">Her</h2>
+                <p class="item__desc">Guinevere Beck</p>
+            </div>
+            <img src="./beck.webp" alt="" class="gallery__img">
+        </div>
+        <div class="item span3">
+            <div class="item__text item__text--2">
+                <h2 class="item__title">Meeting Her</h2>
+                <p class="item__desc">Bookshop</p>
+            </div>
+            <img src="./beck2.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="item span3">
+            <div class="item__text item__text--3">
+                <h2 class="item__title">Her Kiss</h2>
+                <p class="item__desc">Sweet and Comfy</p>
+            </div>
+            <img src="./beck3.jpg" alt="" class="gallery__img">
+        </div>
+        <div class="item span2">
+            <div class="item__text item__text--4">
+                <h2 class="item__title">Bonding with Her</h2>
+                <p class="item__desc">Moments that should last forever</p>
+            </div>
+            <img src="./beck11.png" alt="" class="gallery__img">
+        </div>
+        <div class="item span3">
+            <div class="item__text item__text--5">
+                <h2 class="item__title">Her End</h2>
+                <p class="item__desc">We're not meant to be together</p>
+            </div>
+            <img src="./beck4.webp" alt="" class="gallery__img">
+        </div>
+        <div class="item span2">
+            <div class="item__text item__text--6"></div>
+            <img src="./beck6.jpg" alt="" class="gallery__img">
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title">About Me</h2>
+            <p class="about__desc u-mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro minus reiciendis quibusdam adipisci earum eaque eum modi vero ex? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum labore necessitatibus delectus quas natus numquam in praesentium eligendi eaque quia?</p>
+            <button class="btn">Know me &rightarrow;</button>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <form action="#" class="form">
+                <div class="form__field">
+                    <label for="name" class="form__label">Name</label>
+                    <input type="text" class="form__input" id="name" placeholder="Your Name">
+                </div>
+                <div class="form__field">
+                    <label for="email" class="form__label">Email</label>
+                    <input type="text" class="form__input" id="email" placeholder="Your Email">
+                </div>
+                <div class="form__field message">
+                    <label for="name" class="form__label">Message</label>
+                    <textarea class="form__input" id="message" placeholder="Your Message"></textarea>
+                </div>
+    
+                <button class="form__btn">Submit</button>
+            </form>
+            <div class="contact__infos">
+                <div class="contact__info">
+                    <span class="contact__name"><i class="icon fas fa-envelope fa-2x"></i>Email</span>
+                    <p class="contact__desc">joegoldberg@youstalk.com</p> 
+                </div>
+                <div class="contact__info">
+                    <span class="contact__name"><i class="icon fas fa-phone fa-2x"></i>Phone</span>
+                    <p class="contact__desc">+1231207412</p> 
+                </div>
+                <div class="contact__info">
+                    <span class="contact__name"><i class="icon fas fa-home fa-2x"></i>Address</span>
+                    <p class="contact__desc">Los Angeles,California</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="icons u-mb-1">
+                <i class="fab icon fa-twitter fa-2x"></i>
+                <i class="fab icon fa-facebook fa-2x"></i>
+                <i class="fab icon fa-instagram fa-2x"></i>
+                <i class="fab icon fa-youtube fa-2x"></i>
+                <i class="fab icon fa-dribbble fa-2x"></i>
+            </div>
+
+            <p class="footer__note">&copy;All Rights Reserved 2020</p>
+        </div>
+    </footer>
+</body>
+</html>
