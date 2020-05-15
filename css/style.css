@@ -343,8 +343,8 @@ li {
   .gallery {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
-    -ms-grid-rows: (300px)[3];
-        grid-template-rows: repeat(3, 300px);
+    -ms-grid-rows: (300px)[6];
+        grid-template-rows: repeat(6, 300px);
   }
 }
 
